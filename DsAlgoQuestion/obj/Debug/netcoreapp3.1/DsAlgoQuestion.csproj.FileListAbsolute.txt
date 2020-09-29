@@ -1,0 +1,12 @@
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\bin\Debug\netcoreapp3.1\DsAlgoQuestion.exe
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\bin\Debug\netcoreapp3.1\DsAlgoQuestion.deps.json
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\bin\Debug\netcoreapp3.1\DsAlgoQuestion.runtimeconfig.json
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\bin\Debug\netcoreapp3.1\DsAlgoQuestion.runtimeconfig.dev.json
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\bin\Debug\netcoreapp3.1\DsAlgoQuestion.dll
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\bin\Debug\netcoreapp3.1\DsAlgoQuestion.pdb
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\obj\Debug\netcoreapp3.1\DsAlgoQuestion.csproj.CoreCompileInputs.cache
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\obj\Debug\netcoreapp3.1\DsAlgoQuestion.AssemblyInfoInputs.cache
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\obj\Debug\netcoreapp3.1\DsAlgoQuestion.AssemblyInfo.cs
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\obj\Debug\netcoreapp3.1\DsAlgoQuestion.dll
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\obj\Debug\netcoreapp3.1\DsAlgoQuestion.pdb
+C:\Users\com\source\repos\DsAlgo2\DsAlgoQuestion\obj\Debug\netcoreapp3.1\DsAlgoQuestion.genruntimeconfig.cache
