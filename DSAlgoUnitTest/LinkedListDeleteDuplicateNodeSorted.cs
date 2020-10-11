@@ -15,6 +15,33 @@ namespace DSAlgoUnitTest
 			CollectionAssert.AreEqual(expected, result);
 		}
 
+
+		[TestMethod]
+		public void DeleteDuplicateNodeSortedLinkedListTestCase2()
+		{
+			DeleteDuplicateNode.LinkedList test = NewLinkedList(new int[] { 11, 11, 11});
+			List<int> result = ToList(DeleteDuplicateNode.DeleteDuplicateNodeSorted(test));
+			int[] expected = new int[] { 11};
+			CollectionAssert.AreEqual(expected, result);
+		}
+
+		[TestMethod]
+		public void DeleteDuplicateNodeSortedLinkedListTestCase3()
+		{
+			DeleteDuplicateNode.LinkedList test = NewLinkedList(new int[] { 11, 11, 11,12,12,15,15,17,18,19,19,20 });
+			List<int> result = ToList(DeleteDuplicateNode.DeleteDuplicateNodeSorted(test));
+			int[] expected = new int[] { 11,12,15,17,18,19,20 };
+			CollectionAssert.AreEqual(expected, result);
+		}
+
+		[TestMethod]
+		public void DeleteDuplicateNodeSortedLinkedListTestCase4()
+		{
+			DeleteDuplicateNode.LinkedList test = NewLinkedList(new int[] { 1,2,3,4,5});
+			List<int> result = ToList(DeleteDuplicateNode.DeleteDuplicateNodeSorted(test));
+			int[] expected = new int[] { 1,2,3,4,5 };
+			CollectionAssert.AreEqual(expected, result);
+		}
 		public DeleteDuplicateNode.LinkedList NewLinkedList(int[] values)
 		{
 			DeleteDuplicateNode.LinkedList ll = new DeleteDuplicateNode.LinkedList(values[0]);
