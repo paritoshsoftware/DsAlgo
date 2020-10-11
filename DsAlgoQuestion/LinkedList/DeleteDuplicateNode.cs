@@ -9,7 +9,7 @@ namespace DsAlgoQuestion.LinkedList
 
 		public static LinkedList DeleteDuplicateNodeSorted(LinkedList head)
 	{
-		// Write your code here.
+		// Write your code here.This is currently in construction
 		LinkedList current = head;
 		LinkedList prev = null;
 		LinkedList temp;
