@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace DSAlgoUnitTest
 {
    [TestClass]
-	public class DeleteDuplicateNodeSortedLinkedList
+	public class LinkedListDeleteDuplicateNodeSorted
 	{
 		[TestMethod]
 		public void DeleteDuplicateNodeSortedLinkedListTestCase1()
