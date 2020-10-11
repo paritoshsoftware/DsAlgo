@@ -7,25 +7,33 @@ namespace DsAlgoQuestion.LinkedList
    public class DeleteDuplicateNode
     {
 
-		public static LinkedList DeleteDuplicateNodeSorted(LinkedList head)
+	public static LinkedList DeleteDuplicateNodeSorted(LinkedList head)
 	{
 		// Write your code here.This is currently in construction
-		LinkedList current = head;
-		LinkedList prev = null;
+		LinkedList first = head;
+		LinkedList second = head;
 		LinkedList temp;
 
-		while (current != null)
+		while (first.Next != null)
 		{
-			temp = current.Next;
-			current.Next = prev;
-			prev = current;
-			current = temp;
+			second = second.Next;
+		    if(first.Value == second.Value)
+				{
+					temp = second;
+					first.Next = temp.Next;
+					temp.Next = null;				
+				}
+				else
+				{
+					first = first.Next;
+				}
+				second = first;
 		}
-
-		return prev;
+			 
+		return head;
 	}
 
-		public class LinkedList
+	public class LinkedList
 	{
 		public int Value;
 		public LinkedList Next = null;
